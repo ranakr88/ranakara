@@ -29,19 +29,7 @@
     <p>************************************************************************</p>
     <h5>Dizilerde Eleman Sayıları</h5>
     <?php 
-      /* $personel = array(
-        "id"       => 1,
-        "name"     => "Rukis",
-        "surname"  => "köksal",
-        "graduate" => "Aymes Bilgisayar pro"
-  );
-
-  echo "<pre>";
-  print_r($personel);
-  echo "</pre>";
-
-  echo "Dizinin Eleman Sayısı:" . count($personel). "<br>";
-  echo "Dizinin Eleman Sayısı:" . sizeof($personel). "<br>"; */
+      
 
   $degerler = array(
     "Ocak",
@@ -77,13 +65,12 @@ echo "Dizinin Eleman Sayısı:" . count($degerler). "<br>";
   echo "Dizinin Alt Boyutları Dahil Tüm Eleman Sayısı:" . count($degerler, COUNT_RECURSIVE). "<br>";
 
     ?>
- ?>
+
     <br><br>
     <p>************************************************************************</p>
     <h5>Dizinin Başına Eleman Ekleme</h5>
     <?php 
     $isimler= array("Ayşe, Fatma, Ahmet, Yeto");
-
     echo "<pre>";
   print_r($isimler);
    echo "</pre>";
@@ -95,7 +82,7 @@ echo "Dizinin Eleman Sayısı:" . count($degerler). "<br>";
    echo "</pre>";
     ?>
     
-    ?>
+    
     <br><br>
     <p>************************************************************************</p>
      <h5>Dizinin Sonuna Eleman Ekleme</h5>
@@ -113,7 +100,6 @@ echo "Dizinin Eleman Sayısı:" . count($degerler). "<br>";
     echo "</pre>";
     ?>
 
-?>
     <br><br>
     <p>************************************************************************</p>
     <h5>Dizinin Başından Eleman Çıkarma</h5>
@@ -137,7 +123,7 @@ echo "Dizinin Eleman Sayısı:" . count($degerler). "<br>";
 
     ?>
 
-?>
+
     <br><br>
     <p>************************************************************************</p>
      <h5>Dizinin Sonundan Eleman Çıkarma</h5>
@@ -287,6 +273,8 @@ echo key($market);
     echo "<pre>";
     print_r($yeniDizi);
     echo "</pre>";
+
+    
 
     ?>
     <br><br>
